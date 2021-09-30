@@ -102,24 +102,28 @@ Berikut langkah-langkah mengupload file ke GitHub:
     ```
     git init
     ```
-3. Menambahkan semua file dengan perintah:
-    ```
-    git add .
-    ``` 
-4. Melihat status dengan perintah:
+3. Melihat status dengan perintah:
     ```
     git status
     ```
-5. Commit pesan dengan perintah:
+4. Menambahkan semua file dengan perintah:
+    ```
+    git add .
+    ``` 
+5. Melihat status dengan perintah:
+    ```
+    git status
+    ```
+6. Commit pesan dengan perintah:
     ```
     git commit -m "menuliskan pesan"
     ```
-6. Git remote dengan perintah:
-    ```
+7. Git remote dengan perintah:
+   ```
     git remote add origin https://github.com/shofinurfaldini/01-git-github.git
     ```
-7. Git push -u origin master lalu ketikkan username dan password dengan perintah:
+8. Git push -u origin master lalu ketikkan username dan password dengan perintah:
     ```
     Git push -u origin master
     ```
-8. Yang terakhir refresh halaman GitHub.
+9. Yang terakhir refresh halaman GitHub.
